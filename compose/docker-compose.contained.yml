@@ -49,7 +49,7 @@ services:
     links:
       - "netmaker:api"
     ports:
-      - "8082:80"
+      - "8082:8082"
     environment:
       BACKEND_URL: "https://api.NETMAKER_BASE_DOMAIN"
     restart: always
